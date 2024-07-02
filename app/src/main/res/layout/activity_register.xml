@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LogAndReg.LoginActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/Logo"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:transitionName="logo"
+                android:layout_gravity="center_horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rentlogo" />
+
+            <TextView
+                android:id="@+id/projectName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/grained"
+                android:text="Rent Tools"
+                android:textSize="35dp"
+                android:transitionName="nameOfProject"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/textLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/caster"
+                android:text="Register to use the app"
+                android:textColor="@color/primary_70"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textColorHint="@color/editTextColorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputNameHint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextbackground"
+                    android:fontFamily="sans-serif-medium"
+                    android:hint="Name of account"
+                    android:inputType="text"
+                    android:padding="20dp"
+                    android:textColor="@color/primary_80" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputEmail"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textColorHint="@color/editTextColorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEmailHint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:transitionName="email"
+                    android:background="@drawable/edittextbackground"
+                    android:fontFamily="sans-serif-medium"
+                    android:hint="Your Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="20dp"
+                    android:textColor="@color/primary_80" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputPassword"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/editTextColorText"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputPasswordHint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextbackground"
+                    android:transitionName="password"
+                    android:hint="Your Password"
+                    android:inputType="textPassword"
+                    android:padding="20dp"
+                    android:textColor="@color/primary_80"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputPasswordReset"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/editTextColorText"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputPasswordResetHint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextbackground"
+                    android:hint="Retry your Password"
+                    android:inputType="textPassword"
+                    android:padding="20dp"
+                    android:textColor="@color/primary_80"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/registerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/buttonloginregisterbackground"
+                android:fontFamily="sans-serif-medium"
+                android:padding="10dp"
+                android:layout_marginTop="40dp"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/TextButtonGoToLoginActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Don't have an account? Register"
+                android:textColor="@color/primary_70"
+                android:textSize="19dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#56C0E3A2</color>
+    <color name="back">#91C664</color>
+
+    <!--Primary Colors-->
+
+    <color name="primary">#015B42</color>
+    <color name="primary_90">#1B6C55</color>
+    <color name="primary_80">#347C68</color>
+    <color name="primary_70">#4E8E7B</color>
+
+    <!--Secondary Colors-->
+
+    <color name="secondary">#BFF3C8</color>
+    <color name="secondary_90">#C5F4CD</color>
+    <color name="secondary_80">#CAF3D1</color>
+    <color name="secondary_70">#D0F4D6</color>
+
+    <!--Neutral Colors-->
+
+    <color name="almost_black">#0A1814</color>
+
+    <color name="neutral_1">#0A1814</color>
+    <color name="neutral_2">#324F47</color>
+    <color name="neutral_3">#53746B</color>
+    <color name="neutral_4">#6D817B</color>
+    <color name="neutral_6">#AEB8B5</color>
+    <color name="neutral_7">#C9D6D2</color>
+    <color name="neutral_8">#EAF1EF</color>
+    <color name="neutral_9">#F7F8F7</color>
+
+
+    <color name="accent_1">#ECB2F2</color>
+    <color name="accent_2">#2D6A6A</color>
+    <color name="accent_3">#E9AD8C</color>
+    <color name="accent_4">#645E92</color>
+
+    <color name="accent_1_light">#FAEAFC</color>
+    <color name="accent_2_light">#EAF1F1</color>
+    <color name="accent_3_light">#FAECE4</color>
+    <color name="accent_4_light">#E9E8F2</color>
+
+
+    <color name="Success">#287D3C</color>
+    <color name="SuccessBackground">#EDF9F0</color>
+
+    <color name="Warning">#B96000</color>
+    <color name="WarningBackground">#FFF4EC</color>
+
+    <color name="Error">#DA1414</color>
+    <color name="ErrorBackground">#FEEFEF</color>
+
+    <color name="Info">#2E5AAC</color>
+    <color name="InfoBackground">#EEF2FA</color>
+
+    <!--Other Colors-->
+
+    <color name="editTextColorBackground">#F0F5F1</color>
+    <color name="editTextColorText">#74A598</color>
+
+
+</resources>

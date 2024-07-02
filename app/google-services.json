@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "204085597590",
+    "project_id": "rent-tool-marketplace-project",
+    "storage_bucket": "rent-tool-marketplace-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204085597590:android:b253a3834d20c90bc379b7",
+        "android_client_info": {
+          "package_name": "com.example.rentmarketplace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzy62l2RylrsOcgWrYwMfPNAvy6eUAXqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
