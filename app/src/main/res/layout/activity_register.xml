@@ -147,7 +147,7 @@
                 android:background="@drawable/buttonloginregisterbackground"
                 android:fontFamily="sans-serif-medium"
                 android:padding="10dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="50dp"
                 android:text="Register"
                 android:textColor="@color/white"
                 android:textSize="19dp" />
@@ -157,11 +157,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="30dp"
+                android:layout_margin="10dp"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:text="Don't have an account? Register"
                 android:textColor="@color/primary_70"
                 android:textSize="19dp" />
         </LinearLayout>
+
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
